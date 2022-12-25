@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.queenpuzzle">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/puzzleicon"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.example.queenpuzzle.DetailsEditer"></activity>
+        <activity android:name="com.example.queenpuzzle.profile_navigation" />
+        <activity android:name="com.example.queenpuzzle.Level" />
+        <activity android:name="com.example.queenpuzzle.Main_menu" />
+        <activity android:name="com.example.queenpuzzle.Level_5_5_Image6" />
+        <activity android:name="com.example.queenpuzzle.Level_5_5_Image5" />
+        <activity android:name="com.example.queenpuzzle.Level_5_5_Image4" />
+        <activity android:name="com.example.queenpuzzle.Level_5_5_Image3" />
+        <activity android:name="com.example.queenpuzzle.Level_4_4_Image6" />
+        <activity android:name="com.example.queenpuzzle.Level_4_4_Image5" />
+        <activity android:name="com.example.queenpuzzle.Level_4_4_Image4" />
+        <activity android:name="com.example.queenpuzzle.Level_4_4_Image3" />
+        <activity android:name="com.example.queenpuzzle.Level_3_3_Image6" />
+        <activity android:name="com.example.queenpuzzle.Level_3_3_Image5" />
+        <activity android:name="com.example.queenpuzzle.Level_3_3_Image4" />
+        <activity android:name="com.example.queenpuzzle.Level_3_3_Image3" />
+        <activity android:name="com.example.queenpuzzle.Level_5_5_Image2" />
+        <activity android:name="com.example.queenpuzzle.Level_4_4_Image2" />
+        <activity android:name="com.example.queenpuzzle.Level_3_3_Image2" />
+        <activity android:name="com.example.queenpuzzle.setting_navigation" />
+        <activity android:name="com.example.queenpuzzle.facebook_navigation" />
+        <activity android:name="com.example.queenpuzzle.PhotoGrid03" />
+        <activity android:name="com.example.queenpuzzle.PhotoGrid02" />
+        <activity android:name="com.example.queenpuzzle.Option_Menu" />
+        <activity android:name="com.example.queenpuzzle.Level_3_3" />
+        <activity android:name="com.example.queenpuzzle.Level_5_5" />
+        <activity android:name="com.example.queenpuzzle.Level_4_4" />
+        <activity android:name="com.example.queenpuzzle.PhotoGrid" />
+        <activity android:name="com.example.queenpuzzle.Home" />
+        <activity android:name="com.example.queenpuzzle.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.facebook.FacebookActivity"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.facebook.CustomTabActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data android:scheme="@string/fb_login_protocol_scheme" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id" />
+    </application>
+
+</manifest>

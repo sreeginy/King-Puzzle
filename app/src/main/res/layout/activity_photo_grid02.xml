@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/photogrid02bg"
+    tools:context=".PhotoGrid02">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="28dp"
+            android:layout_marginRight="28dp">
+
+
+            <ListView
+                android:id="@+id/List_view"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="43dp" />
+
+            <EditText
+                android:id="@+id/et_text"
+                android:layout_width="185dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:hint="Enter Your Name"
+                android:textColor="#0E0E0E"
+                android:textSize="20sp"
+                android:layout_below="@+id/List_view"
+                android:background="#D7ABEF"/>
+
+
+            <Button
+                android:id="@+id/bt_add01"
+                android:layout_width="142dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/et_text"
+                android:layout_centerInParent="true"
+                android:layout_marginTop="15dp"
+                android:gravity="center"
+                android:text="Click" />
+
+
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/profile_pic"
+                android:layout_width="wrap_content"
+                android:layout_height="118dp"
+                android:layout_below="@+id/login01"
+                android:layout_marginLeft="240dp"
+                android:layout_marginTop="18dp"
+                android:src="@drawable/queen" />
+
+        </RelativeLayout>
+
+
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:columnOrderPreserved="false"
+            android:alignmentMode="alignMargins"
+            android:rowCount="3"
+            android:columnCount="2"
+            >
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="128dp"
+                android:layout_height="163dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="12dp"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="6dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:padding="10dp">
+
+                    <ImageButton
+                        android:id="@+id/imagebutton01"
+                        android:layout_width="177dp"
+                        android:layout_height="130dp"
+                        android:foreground="@drawable/middle_flag"
+                        android:scaleType="center"
+                        android:src="@drawable/avijay01" />
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="132dp"
+                android:layout_height="163dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="12dp"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="6dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="163dp"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+                    <ImageButton
+                        android:id="@+id/imagebutton02"
+                        android:layout_width="154dp"
+                        android:layout_height="146dp"
+                        android:foreground="@drawable/middle_girl"
+                        android:src="@drawable/avijay01" />
+
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+        </GridLayout>
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:columnOrderPreserved="false"
+            android:alignmentMode="alignMargins"
+            android:rowCount="3"
+            android:columnCount="2"
+            >
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="128dp"
+                android:layout_height="163dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="12dp"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="6dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:padding="10dp">
+
+                    <ImageButton
+                        android:id="@+id/imagebutton03"
+                        android:layout_width="158dp"
+                        android:layout_height="141dp"
+                        android:foreground="@drawable/middle_instagram"
+                        android:scaleType="center"
+                        android:src="@drawable/avijay01" />
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="132dp"
+                android:layout_height="163dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="12dp"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="6dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="163dp"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+                    <ImageButton
+                        android:id="@+id/imagebutton04"
+                        android:layout_width="184dp"
+                        android:layout_height="139dp"
+                        android:foreground="@drawable/middle_fire"
+                        android:src="@drawable/avijay01" />
+
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+        </GridLayout>
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:columnOrderPreserved="false"
+            android:alignmentMode="alignMargins"
+            android:rowCount="3"
+            android:columnCount="2"
+            >
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="128dp"
+                android:layout_height="163dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="12dp"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="6dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:padding="10dp">
+
+                    <ImageButton
+                        android:id="@+id/imagebutton05"
+                        android:layout_width="177dp"
+                        android:layout_height="130dp"
+                        android:foreground="@drawable/middle_sigiriya"
+                        android:scaleType="center"
+                        android:src="@drawable/avijay01" />
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="132dp"
+                android:layout_height="163dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="12dp"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="6dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="163dp"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+                    <ImageButton
+                        android:id="@+id/imagebutton06"
+                        android:layout_width="184dp"
+                        android:layout_height="139dp"
+                        android:foreground="@drawable/middle_vijay"
+                        android:src="@drawable/avijay01" />
+
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+        </GridLayout>
+    </LinearLayout>
+
+</ScrollView>

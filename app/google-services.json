@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "433530604721",
+    "firebase_url": "https://king-puzzle.firebaseio.com",
+    "project_id": "king-puzzle",
+    "storage_bucket": "king-puzzle.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:433530604721:android:8978c82cd00868db582690",
+        "android_client_info": {
+          "package_name": "com.example.kingpuzzle"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "433530604721-5fb4tc4h3c5se92b9mjmu6qh4u3oubck.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCgXRvcarwvol7dJAcHVrjlA5Nk-vPmKl8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "433530604721-5fb4tc4h3c5se92b9mjmu6qh4u3oubck.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

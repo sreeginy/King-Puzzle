@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main1"
+    tools:context=".Main_menu">
+
+
+    <FrameLayout
+        android:id="@+id/framelayout"
+        android:layout_width="299dp"
+        android:layout_height="359dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="64dp"
+        android:layout_marginLeft="64dp"
+        android:layout_marginTop="300dp">
+
+
+        <Button
+            android:id="@+id/new_game"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="60dp"
+            android:layout_marginRight="50dp"
+            android:background="#EE82EE"
+            android:text="New GAME  "
+            android:textColor="#008080"
+            android:textSize="20dp" />
+    </FrameLayout>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_nav"
+        android:layout_width="match_parent"
+        android:layout_height="89dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="false"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:background="@color/colorAccent"
+        app:itemIconTint="#F8F2F2"
+        app:itemTextColor="#F8F2F2"
+        app:menu="@menu/bottom"
+        tools:ignore="RtlHardcoded"
+        >
+    </com.google.android.material.bottomnavigation.BottomNavigationView>
+
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="351dp"
+        android:layout_height="186dp"
+        android:layout_below="@id/txt"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="50dp"
+        android:foregroundGravity="center"
+        app:srcCompat="@drawable/user" />
+
+    <TextView
+        android:id="@+id/txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="70dp"
+        android:layout_marginTop="150dp"
+        android:fontFamily="serif"
+        android:text="PUZZLE KING"
+        android:textColor="#008B8B"
+        android:textSize="40dp"
+        />
+
+
+</RelativeLayout>
